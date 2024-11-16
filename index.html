@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Responsive</title>
+
+    <!-- Css files -->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- Bootstrap Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Google fonts  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+            <!-- Uber icon -->
+            <a class="navbar-brand" href="#">
+                <img src="images/ubericon.png" alt="">
+            </a>
+            <!-- toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Left side -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link">Ride</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Drive</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Buisness</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right side  -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="rightside">
+
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <i class="fa-solid fa-globe fa-rotate-by"
+                                style="color: #fdfdfd; --fa-rotate-angle: 150deg; margin-right: 10px;"></i>
+                            En</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Login</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Sign up button -->
+            <div id="buttonsignup" class="ms-auto">
+                <button type="button" class="btn btn-outline-dark">Sign Up</button>
+            </div>
+
+
+        </div>
+
+
+    </nav>
+    <!-- ===================================================== -->
+
+
+    <!-- Section -->
+
+    <div class="container" id="secontioncontainer">
+
+        <div class="row " id="twogrids">
+            <!-- left side- form(Destination-starting point) -->
+            <div class="col-md-6 col-sm-12">
+                <!-- heading -->
+                <p class="left-row-1-heading">Go anywhere with Uber</p>
+
+
+                <!-- Ride-pacakge Button -->
+                <div class="ride-package-button">
+                    <div class="car-button">
+                        <div class="car-button-icon">
+                            <i class="fa-solid fa-car " style="color: #0a0a0b;"></i>
+                        </div>
+                        <!-- car button name -->
+                        <div class="car-button-name">
+                            <p>Ride</p>
+                        </div>
+                    </div>
+
+                    <!-- Ride package icon -->
+                    <div class="package-button">
+                        <div class="package-button-icon">
+                            <i class="fa-solid fa-cube" style="color: #656667;"></i>
+                        </div>
+
+                        <!-- package name -->
+                        <div class="package-button-name">
+                            <p>Package</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- Input Box -->
+                <div class="input-boxes-1">
+
+                    <i id="pick-icon" class="fa-solid fa-circle-stop" style="color: #141414;"></i>
+                    <input class="pick-drop-boxes" type="text" placeholder="Pickup location">
+
+                    <!-- vertical Line -->
+                    <div class="vertical-line">
+
+                    </div>
+
+
+                    <i id="drop-icon" class="fa-solid fa-stop" style="color: #121212;"></i>
+                    <input class="pick-drop-boxes" type="text" placeholder="Dropoff location">
+                </div>
+
+
+                <!-- input boxes 2 -->
+                <div class="input-boxes-2">
+                    <div class="icon-input-group">
+                        <i id="calender-icon" class="fa-solid fa-calendar-day" style="color: #0d0d0d;"></i>
+                        <input class="date" type="text" placeholder="Today">
+                    </div>
+
+                    <div class="icon-input-group">
+                        <i id="clock-icon" class="fa-solid fa-clock" style="color: #030303;"></i>
+                        <input class="date" type="text" placeholder="Nov">
+                        <!-- down arrow -->
+                        <i id="down-arrow" class="fa-solid fa-chevron-down" style="color: #121212;"></i>
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <button id="price-button" type="button" class="btn btn-primary btn-lg">See Prices</button>
+
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+
+                <!--right side row  -->
+                <div class="right-row-1">
+                    <img src="images/map.png" alt="Map">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- ============================================= -->
+
+
+    <!-- 3-Boxes -->
+
+    <div class="container " id="box-container">
+
+        <!-- Suggestion Text -->
+        <div class="text-start mb-5">
+            <p>Suggestions</p>
+        </div>
+
+        <!-- Box-container/ -->
+
+        <div class="row ">
+            <!-- 1st box -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="three-boxes">
+                    <!-- box-descritioon -->
+                    <div class="box-descriptioon">
+                        <p class="box-description-heading">Ride</p>
+
+                        <p class="box-note">
+                            Go anywhere with Uber. Request a ride, hop in and go.
+                        </p>
+
+                        <!-- box -button -->
+                        <button class="box-button">Details</button>
+
+
+                    </div>
+
+                    <!-- Box-images -->
+                    <div class="box-image">
+                        <img src="images/box.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- 2nd box -->
+            <div class="col-lg-4 col-md-6">
+
+
+                <div class="three-boxes">
+                    <!-- box-descritioon -->
+                    <div class="box-descriptioon">
+                        <p class="box-description-heading">Package</p>
+
+                        <p class="box-note">
+                            Uber connect make same- day delivery easier than ever.
+                        </p>
+
+                        <!-- box -button -->
+                        <button class="box-button">Details</button>
+
+
+                    </div>
+
+                    <!-- Box-images -->
+                    <div class="box-image">
+                        <img src="images/car.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- 3rd box -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="three-boxes">
+                    <!-- box-descritioon -->
+                    <div class="box-descriptioon">
+                        <p class="box-description-heading">Reserve</p>
+
+                        <p class="box-note">
+                            Reserve Your drive in advance so you can relax on day of your trip.
+                        </p>
+
+                        <!-- box -button -->
+                        <button class="box-button">Details</button>
+
+
+                    </div>
+
+                    <!-- Box-images -->
+                    <div class="box-image">
+                        <img id="clockimg" src="images/clock2.png" alt="">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ======================================== -->
+
+    <!-- 3rd row -->
+
+    <div class="container-fluid" id="uberride">
+
+        <div class="row ">
+            <!-- image div -->
+            <div class="col-lg-6 col-md-12 thirdrow order-lg-1 order-2 ">
+
+                <img src="images/1stimage.webp" alt="">
+            </div>
+
+            <!-- description div -->
+            <div class="col-lg-6 col-md-12 thirdrow order-lg-2 order-1">
+
+                <!-- descrption -->
+
+                <!-- Row heading -->
+                <div class="row-headings">
+                    <p>Drive when you want, make what you need</p>
+                </div>
+
+
+                <!-- description -->
+                <div class="row-paragraphs">
+                    <p>Make money on your schedule with deliveries or rides— or both. You can use your own car or
+                        choose a rental through Uber.
+                    </p>
+                </div>
+
+
+                <!-- button and link -->
+                <div class="button-link-container">
+                    <button>Get Started</button>
+                    <a href="">Already have an account? Sign In</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- ============================================== -->
+
+    <!-- 4th row -->
+
+
+
+
+    <div class="container-fluid" id="uberride">
+
+        <div class="row ">
+
+
+            <!-- description div -->
+            <div class="col-lg-6 col-md-12 thirdrow">
+
+                <!-- descrption -->
+
+                <!-- Row heading -->
+                <div class="row-headings">
+                    <p>The Uber you know,reimagined for business</p>
+                </div>
+
+
+                <!-- description -->
+                <div class="row-paragraphs">
+                    <p>Uber for Business is a platform for managing global rides and meals, and local deliveries, for
+                        companies of any size.</p>
+                </div>
+
+
+                <!-- button and link -->
+                <div class="button-link-container">
+                    <button>Get Started</button>
+                    <a href="">Check out our solutions</a>
+                </div>
+
+
+            </div>
+
+
+            <!-- image div -->
+            <div class="col-lg-6 col-md-12 thirdrow">
+                <img src="images/2image.webp" alt="">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- ========================================= -->
+
+
+    <!-- 5th row -->
+
+    <div class="container-fluid" id="uberride">
+
+        <div class="row ">
+            <!-- image div -->
+            <div class="col-lg-6 col-md-12 thirdrow order-lg-1 order-2 ">
+
+                <img src="images/3rdimage.webp" alt="">
+            </div>
+
+            <!-- description div -->
+            <div class="col-lg-6 col-md-12 thirdrow order-lg-2 order-1">
+
+                <!-- descrption -->
+
+                <!-- Row heading -->
+                <div class="row-headings">
+                    <p>Make money by renting <br> out your car</p>
+
+                </div>
+
+
+                <!-- description -->
+                <div class="row-paragraphs">
+                    <p>Connect with thousands of drivers and earn more per week with Uber’s free fleet management
+                        tools.</p>
+                </div>
+
+
+                <!-- button and link -->
+                <div class="button-link-container">
+                    <button>Get Started</button>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- ========================================================================================= -->
+
+
+    <!-- Qr code -->
+
+    <div class="container-fluid" id="qrcode">
+
+        <div class="row ">
+            <!-- heading -->
+            <div class="qrheading">
+                <p>It's easier in the apps</p>
+            </div>
+
+
+            <!-- First Box -->
+            <div class="col-lg-6 col-md-12        qrcodescanner">
+                <!-- qr code image -->
+                <div class="qr-image">
+                    <img src="images/qrcode1.webp" alt="">
+                </div>
+
+                <!-- Qr code description -->
+
+                <!-- Download app -->
+                <div class="qr-description">
+
+                    <h4>Download the Uber app</h4>
+
+                    <p>Scan to download</p>
+
+                </div>
+
+                <!-- pointer -->
+                <i class="fa-solid fa-arrow-right" style="color: #0d0d0d;"></i>
+
+
+            </div>
+
+
+            <!-- Second Box -->
+            <div class="col-lg-6 col-md-12 qrcodescanner ">
+
+                <!-- qr code image -->
+                <div class="qr-image">
+                    <img src="images/qrcode2.webp" alt="">
+                </div>
+
+                <!-- Qr code description -->
+
+                <!-- Download app -->
+                <div class="qr-description">
+
+                    <h4>Download the Driver app</h4>
+
+                    <p>Scan to download</p>
+
+                </div>
+
+                <!-- pointer -->
+                <i class="fa-solid fa-arrow-right" style="color: #0d0d0d;"></i>
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ========================================================= -->
+
+    <!-- Footer -->
+
+    <div class="container-fluid" id="footertotal">
+
+        <div class="footer-elements">
+
+            <!-- image uber -->
+            <img src="images/ubericon.png" alt="">
+
+            <!-- help center -->
+            <p style="color: white; font-size: 15px; margin-bottom: 80px;">Visit help center</p>
+
+
+            <!-- list -->
+            <div class="listcoloumn row">
+
+                <!-- 1 st coloumn -->
+                <div class="col-lg-3 col-md-4 singlecoloumn">
+                    <!-- list Heading -->
+                    <h5 class="listheading">Company</h5>
+                    <ul class="list-group list-unstyled">
+                        <!-- lists -->
+                        <li>About us</li>
+                        <li>Our Offerings</li>
+                        <li>News Room</li>
+                        <li>Investors</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+
+                <!-- 2nd coloum -->
+                <div class="col-lg-3 col-md-4 singlecoloumn">
+                    <!-- list Heading -->
+                    <h5 class="listheading">Products</h5>
+                    <ul class="list-group list-unstyled">
+                        <!-- lists -->
+                        <li>Ride</li>
+                        <li>Drive</li>
+                        <li>Deliver</li>
+                        <li>Eat</li>
+                        <li>Uber Freight</li>
+                    </ul>
+                </div>
+
+                <!-- 3rd column -->
+                <div class="col-lg-3 col-md-4 singlecoloumn">
+                    <!-- list Heading -->
+                    <h5 class="listheading">Global Citizenship</h5>
+                    <ul class="list-group list-unstyled">
+                        <!-- lists -->
+                        <li>Safety Citizenship</li>
+                        <li>Diversity and Inclusion</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </div>
+
+
+                <!-- 4th column -->
+                <div class="col-lg-3 col-md-4 singlecoloumn">
+                    <!-- list Heading -->
+                    <h5 class="listheading">Travel</h5>
+                    <ul class="list-group list-unstyled">
+                        <!-- lists -->
+                        <li>Reserve</li>
+                        <li>Cities</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <!-- ========================================= -->
+
+            <!--Social media logos and language buttons -->
+
+            <div class="container-fluid" id="iconsLanguage">
+
+                <div class="row">
+                    <!-- icons -->
+                    <div class="col-lg-6 col-sm-12 socialmediaicons">
+
+                        <i class="fa-brands fa-facebook smi" style="color: #f8f7f7;"></i>
+                        <i class="fa-brands fa-youtube smi" style="color: #f7f7f7;"></i>
+                        <i class="fa-brands fa-instagram smi" style="color: #f7f7f7;"></i>
+                        <i class="fa-brands fa-linkedin smi" style="color: #f7f7f7;"></i>
+
+
+
+                    </div>
+
+                    <!-- language -->
+                    <div class="col-lg-6 col-sm-12 languagelocation">
+
+                        <button>
+                            <i class="fa-solid fa-globe fa-rotate-by" style="--fa-rotate-angle: 150deg;"></i> English
+                        </button>
+
+                        <button>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Bhopal
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- ======================================= -->
+
+
+            <!-- App store images -->
+            <div class="container-fluid appstore">
+
+                <img src="images/apple.svg" alt="">
+                <img src="images/google.svg" alt="">
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- ==============================END================================================== -->
+    <!-- Js tag -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- ================================================================================= -->
+
+</body>
+
+</html>

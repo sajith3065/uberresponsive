@@ -1,0 +1,652 @@
+#secontioncontainer {
+    height: auto;
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin-top: 80px;
+
+}
+
+#twogrids {
+    padding: 5px;
+    height: auto;
+
+}
+
+/* heading left row */
+.left-row-1-heading {
+    font-family: Roboto, Arial;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 60px;
+}
+
+/* making uber next line */
+.next-line {
+    display: inline;
+}
+
+/* Ride package button */
+.ride-package-button {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+
+/* car button icon */
+.car-button-icon {
+    margin-right: 120px;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: rgb(231, 228, 228);
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+/* car button name */
+.car-button-name {
+    font-family: Roboto, Arial;
+    padding: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* pacakage icon */
+.package-button-icon {
+    font-size: 25px;
+    padding: 12px;
+    /* margin-bottom: 0px; */
+    cursor: pointer;
+    margin-left: 14px;
+
+}
+
+.package-button-name {
+    font-weight: 600;
+    color: rgb(86, 86, 86);
+    /* font-size: 18px; */
+    font-family: Roboto, Arial;
+    padding: 7px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+/* input box -1 */
+.input-boxes-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%
+}
+
+
+/* font awesome icon-pickup */
+#pick-icon {
+    font-size: 23px;
+    position: absolute;
+    left: 11px;
+    top: 13px;
+
+}
+
+
+/* font awesome icon-destination */
+#drop-icon {
+    font-size: 23px;
+    position: absolute;
+    left: 11px;
+    top: 76px;
+}
+
+/* input boxes 2 horizontal */
+.input-boxes-2 {
+    display: flex;
+    gap: 10px;
+    width: 90%
+}
+
+.icon-input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+ 
+}
+
+
+/* calendar icon fontawesome */
+#calender-icon {
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 17px;
+
+
+}
+
+/* clock icon fontawesome */
+#clock-icon {
+    font-size: 15px;
+    position: absolute;
+    top: 17px;
+    left: 13px;
+
+
+}
+
+
+/* Down arrow */
+#down-arrow {
+    font-size: 15px;
+    position: absolute;
+    top: 17px;
+    left: 190px;
+}
+
+
+/* vertical line */
+.vertical-line {
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+/* pickup-drop boxes */
+.pick-drop-boxes {
+
+    margin-bottom: 13px;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 18px;
+    padding-left: 45px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(243, 243, 243)
+}
+
+/* date boxes */
+.date {
+    /* margin-bottom: 13px; */
+    height: 50px;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 18px;
+    padding-left: 35px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(243, 243, 243);
+
+}
+
+/* button price */
+#price-button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto, Arial;
+    transition: background-color 0.15s;
+}
+
+.price-button:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+
+/* Map image */
+.right-row-1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+/* ------------------------------- */
+
+/* 3 boxes */
+
+
+/* total Box container */
+#box-container {
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: auto;
+    width: auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Suggestion text */
+.text-start p {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Roboto, Arial;
+
+}
+
+/* .col-md-4{
+    border: 1px solid rgba(0, 0, 255, 0.976);
+ height: auto;
+    width: 30px;
+    
+  
+} */
+
+
+
+/* three boxes */
+.three-boxes {
+    display: flex;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    height: 170px;
+    margin-bottom: 5px;
+
+}
+
+/* box descrition headin */
+.box-description-heading {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+/* box descrition */
+.box-note {
+    /* margin-top: 2px; */
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* box image */
+.box-image {
+    height: 142px;
+    width: 145px;
+}
+
+/* Colck image */
+#clockimg {
+    height: 90px;
+    width: 90px;
+    margin-top: 50px;
+}
+
+
+/* box- button */
+.box-button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    margin-left: 7px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+.box-button:hover {
+    background-color: rgb(228, 226, 226);
+}
+
+/* ===================================== */
+/* 3rd row */
+
+#uberride {
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.thirdrow {
+    border: 1px solid rgba(0, 0, 255, 0);
+    height: auto;
+
+}
+
+.thirdrow img {
+    height: 550px;
+    width: 100%;
+}
+
+/*Row headings  */
+.row-headings p {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+
+/* row paragraphs */
+.row-paragraphs p {
+    margin-top: 30px;
+    margin-left: 50px;
+    line-height: 25px;
+    font-size: 18px;
+    color: rgb(57, 57, 57);
+}
+
+
+/* button-link container */
+.button-link-container {
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+
+
+
+/* Button- Get started */
+.button-link-container button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+
+.button-link-container button:hover {
+    background-color: rgb(67, 66, 66);
+}
+
+.button-link-container a {
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-family: Roboto, Arial;
+}
+
+
+.button-link-container a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(152, 151, 151);
+}
+
+/* ====================================== */
+
+/* Qr code */
+
+#qrcode {
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin-top: 100px;
+    padding: 30px;
+    background-color: rgb(244, 244, 244);
+
+
+}
+
+
+
+/* two coloumn */
+.qrcodescanner {
+    height: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      
+   
+}
+
+/* qr heading */
+.qrheading {
+
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.qr-image{
+    padding: 10px;
+   
+}
+
+/* images QR */
+.qr-image img{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+.qr-description{
+    padding: 10px;
+}
+
+/* qr- heading */
+.qr-description h4{
+    font-family: Roboto,Arial;
+    line-height: 30px;
+    margin-bottom: 7px;
+    font-weight: 900;
+}
+
+/* qr paragraph */
+.qr-description p{
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ======================================= */
+
+/* Media quieries First-Row */
+
+
+@media(max-width:1199px) {
+    .right-row-1 img {
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+
+    /* 3rd- row */
+    .thirdrow img {
+        margin-top: 80px;
+    }
+
+}
+
+
+@media(max-width:1120px) {
+
+    /* 3rd row - button and link */
+    .button-link-container a {
+        margin-top: 10px;
+    }
+
+
+}
+
+
+
+@media(max-width:992px) {
+    .right-row-1 img {
+        margin-left: 70px;
+        margin-top: 180px;
+        height: 400px;
+        width: 370px;
+    }
+
+    /* 3rd- row */
+    .thirdrow img {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .row-headings p {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+        margin-left: 20px;
+    }
+
+    .row-paragraphs p {
+        margin-left: 20px;
+    }
+
+    .button-link-container {
+        margin-left: 20px;
+    }
+
+
+    /* map section input box drop icon */
+    #down-arrow{
+        left: 120px;
+    }
+
+    /* qr code  */
+    /* qr code image */
+    .qr-image img{
+        height: 100px;
+        width: 100px;
+    }
+    .qrcodescanner{
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .right-row-1 img {
+        margin-left: 70px;
+        margin-top: 160px;
+        height: 430px;
+        width: 340px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .left-row-1-heading {
+        font-size: 36px;
+        line-height: 45px;
+
+    }
+
+    .ride-package-button {
+        margin-left: 0;
+    }
+
+    #twoGrids {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-row-1 img {
+        margin-top: 20px;
+        margin-left: 1px;
+        width: 100%
+    }
+
+      /* map section input box drop icon */
+      #down-arrow{
+        left: 180px;
+    }
+
+    /* 3 row heading */
+    .row-headings p {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+       
+    }
+
+
+}
+
+
+@media (max-width:497px){
+      /* map section input box drop icon */
+      #down-arrow{
+        left: 160px;
+    }
+}
+
+@media (max-width:458px){
+    /* map section input box drop icon */
+    #down-arrow{
+      left: 150px;
+  }
+}
+
+@media (max-width:427px){
+    /* map section input box drop icon */
+    #down-arrow{
+      left: 140px;
+  }
+}
+
+
+@media (max-width:402px){
+    /* map section input box drop icon */
+    #down-arrow{
+      left: 130px;
+  }
+}
+
+@media (max-width:379px){
+    /* map section input box drop icon */
+    #down-arrow{
+      left: 120px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

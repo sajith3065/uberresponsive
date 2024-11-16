@@ -1,0 +1,157 @@
+#footertotal {
+    background-color: black;
+    height: auto;
+    border: 1px solid rgba(255, 0, 0, 0);
+    padding: 20px;
+
+}
+
+.footer-elements {
+    border: 1px solid rgba(0, 0, 255, 0);
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/* uber image */
+.footer-elements img {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================== */
+/* list */
+
+.listcoloumn {
+    border: 1px solid rgba(255, 255, 0, 0);
+    height: auto;
+    padding: 20px;
+}
+
+/* List Heading  */
+.listheading {
+    font-family: Roboto, Arial;
+    border: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+/* list */
+.list-group li {
+    color: white;
+    line-height: 39px;
+    font-size: 14px;
+}
+
+/* ============================== */
+
+/* icons and languages */
+#iconsLanguage {
+    border: 1px solid rgba(255, 255, 0, 0);
+    height: auto;
+
+}
+
+.socialmediaicons{
+    display: flex;
+   align-items: center;
+}
+
+
+/* single socaila media icon */
+.smi{
+font-size: 20px;
+cursor: pointer;
+margin-right: 50px;
+}
+
+/* language loaction total div */
+.languagelocation{
+    display: flex;  
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+/* language location buttons */
+.languagelocation button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.languagelocation button:hover{
+    background-color: rgb(27, 27, 27);
+
+}
+/* ============================= */
+
+/* App store images */
+.appstore img{
+    height: 140px;
+    width: 140px;
+}
+
+
+
+
+
+/* ============================ */
+/* Media Quieries */
+
+@media (max-width:992px) {
+
+    /* sigle coloum padding */
+    .singlecoloumn {
+        margin-bottom: 20px;
+    }
+    .languagelocation{
+        display: none;
+    }
+}
+
+
+@media (max-width:847px) {
+
+    /* List Heading  */
+    .listheading {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+}
+
+
+@media (max-width:767px) {
+    /* align list to center */
+
+    .listheading,
+    .list-group {
+        text-align: center;
+    }
+
+    .socialmediaicons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .appstore{
+        display: flex;
+        justify-content: center;
+    }
+
+    .appstore img{
+        height: 70px;
+       width: 70px;
+       margin-right: 30px;
+       
+    }
+   
+}
